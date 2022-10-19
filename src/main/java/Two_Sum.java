@@ -1,5 +1,6 @@
-import java.util.Arrays;
 //https://leetcode.com/problems/two-sum/
+
+import java.util.Arrays;
 public class Two_Sum {
     public static int[] twoSum(int[] nums, int target) {
         int[] answerArray = new int[2];
