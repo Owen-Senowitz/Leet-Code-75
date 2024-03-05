@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/two-sum/
+package Array;//https://leetcode.com/problems/two-sum/
 
 import java.util.Arrays;
 public class Two_Sum {

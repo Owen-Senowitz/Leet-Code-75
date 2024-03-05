@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/contains-duplicate/
+package Array;//https://leetcode.com/problems/contains-duplicate/
 
 import java.util.HashSet;
 public class Contains_Duplicate {
