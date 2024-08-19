@@ -1,8 +1,9 @@
 package Array;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.assertArrayEquals;
 
 public class Product_of_Array_Except_Self_Test {
 
@@ -17,13 +18,13 @@ public class Product_of_Array_Except_Self_Test {
     public void example1() {
         int[] result = productOfArrayExceptSelf.productExceptSelf(new int[]{1, 2, 3, 4});
         int[] expected = new int[] {24, 12, 8, 6};
-        Assert.assertArrayEquals(expected, result);
+        assertArrayEquals(expected, result);
     }
 
     @Test
     public void example2() {
         int[] result = productOfArrayExceptSelf.productExceptSelf(new int[]{-1,1,0,-3,3});
         int[] expected = new int[] {0, 0, 9, 0, 0};
-        Assert.assertArrayEquals(expected, result);
+        assertArrayEquals(expected, result);
     }
 }
